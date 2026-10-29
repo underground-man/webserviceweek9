@@ -68,11 +68,11 @@ public class Movie {
         this.releaseYear = releaseYear;
     }
 
-    public Double getrating() {
+    public Double getRating() {
         return rating;
     }
 
-    public void setrating(Double rating) {
+    public void setRating(Double rating) {
         this.rating = rating;
     }
 
