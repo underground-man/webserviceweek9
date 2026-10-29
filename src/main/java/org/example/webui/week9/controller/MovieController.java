@@ -3,7 +3,6 @@ package org.example.webui.week9.controller;
 import org.example.webui.week9.entity.Movie;
 import org.example.webui.week9.service.MovieService;
 import org.springframework.http.HttpStatus;
-import org.springframework.*;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
