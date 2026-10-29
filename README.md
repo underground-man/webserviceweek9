@@ -77,31 +77,31 @@ API 테스트: Postman
 
 ### movie_sql 테이블 생성
 
-![movie_sql 테이블 생성](<img/스크린샷 2026-10-30 053547.png>)
+![movie_sql 테이블 생성](img/sql-create-table.png)
 
-![movie_sql 테이블 구조 확인](<img/스크린샷 2026-10-30 053558.png>)
+![movie_sql 테이블 구조 확인](img/sql-describe-table.png)
 
 ### INSERT
 
-![movie_sql INSERT 실행](<img/스크린샷 2026-10-30 053608.png>)
+![movie_sql INSERT 실행](img/sql-insert-command.png)
 
-![movie_sql INSERT 결과](<img/스크린샷 2026-10-30 053621.png>)
+![movie_sql INSERT 결과](img/sql-insert-result.png)
 
 ### UPDATE
 
-![movie_sql UPDATE 실행](<img/스크린샷 2026-10-30 053632.png>)
+![movie_sql UPDATE 실행](img/sql-update-command.png)
 
-![movie_sql UPDATE 결과](<img/스크린샷 2026-10-30 053721.png>)
+![movie_sql UPDATE 결과](img/sql-update-result.png)
 
 ### DELETE
 
-![movie_sql DELETE 실행 결과](<img/스크린샷 2026-10-30 053734.png>)
+![movie_sql DELETE 실행 결과](img/sql-delete-result.png)
 
 ### SELECT
 
-![movie_sql 일부 컬럼 조회](<img/스크린샷 2026-10-30 053742.png>)
+![movie_sql 일부 컬럼 조회](img/sql-select-columns.png)
 
-![movie_sql 조건 조회](<img/스크린샷 2026-10-30 053758.png>)
+![movie_sql 조건 조회](img/sql-select-genre.png)
 
 ## 6. Spring Data JPA 구현
 
@@ -109,53 +109,53 @@ API 테스트: Postman
 
 ### Entity
 
-![JPA movies 테이블 구조](<img/스크린샷 2026-10-30 053451.png>)
+![JPA movies 테이블 구조](img/jpa-movies-schema.png)
 
 ### JpaRepository
 ### REST API 목록
 ### 요청 및 응답 JSON
 
-![POST 등록 요청 및 응답](<img/스크린샷 2026-10-30 052050.png>)
+![POST 등록 요청 및 응답](img/api-post.png)
 
-![GET 전체 조회 요청 및 응답](<img/스크린샷 2026-10-30 052114.png>)
+![GET 전체 조회 요청 및 응답](img/api-get-all.png)
 
-![PUT 수정 요청 및 응답](<img/스크린샷 2026-10-30 052201.png>)
+![PUT 수정 요청 및 응답](img/api-put.png)
 
-![DELETE 요청 및 204 응답](<img/스크린샷 2026-10-30 052225.png>)
+![DELETE 요청 및 204 응답](img/api-delete.png)
 
-![삭제된 ID 404 응답](<img/스크린샷 2026-10-30 052240.png>)
+![삭제된 ID 404 응답](img/api-not-found.png)
 
 ### JPA Entity와 MariaDB 테이블 비교
 
-![POST 이후 MariaDB 저장 확인](<img/스크린샷 2026-10-30 052056.png>)
+![POST 이후 MariaDB 저장 확인](img/db-after-post.png)
 
-![PUT 이후 MariaDB 수정 확인](<img/스크린샷 2026-10-30 052209.png>)
+![PUT 이후 MariaDB 수정 확인](img/db-after-put.png)
 
-![DELETE 이후 MariaDB 삭제 확인](<img/스크린샷 2026-10-30 052231.png>)
+![DELETE 이후 MariaDB 삭제 확인](img/db-after-delete.png)
 
 ## 7. JPA와 SQL 비교
 
 ### save()
 
-![save INSERT SQL](<img/스크린샷 2026-10-30 053300.png>)
+![save INSERT SQL](img/hibernate-insert.png)
 
 ### findAll()
 
-![findAll SELECT SQL](<img/스크린샷 2026-10-30 053303.png>)
+![findAll SELECT SQL](img/hibernate-find-all.png)
 
 ### findById()
 
-![findById SELECT WHERE SQL](<img/스크린샷 2026-10-30 053306.png>)
+![findById SELECT WHERE SQL](img/hibernate-find-by-id.png)
 
 ### deleteById()
 
-![deleteById DELETE SQL](<img/스크린샷 2026-10-30 053311.png>)
+![deleteById DELETE SQL](img/hibernate-delete.png)
 
 ### Hibernate SQL 확인
 
-![Hibernate UPDATE 및 SELECT SQL](<img/스크린샷 2026-10-30 052850.png>)
+![Hibernate UPDATE 및 SELECT SQL](img/hibernate-update-console.png)
 
-![Hibernate UPDATE SQL](<img/스크린샷 2026-10-30 053309.png>)
+![Hibernate UPDATE SQL](img/hibernate-update.png)
 
 ## 8. 배포 및 환경 설정
 
